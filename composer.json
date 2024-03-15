@@ -1,0 +1,15 @@
+{
+    "name": "lucas/chatbot_back",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\ChatbotBack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neyzar",
+            "email": "lucas.narguet451@gmail.com"
+        }
+    ],
+    "require": {}
+}
