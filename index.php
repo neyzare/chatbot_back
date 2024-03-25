@@ -1,10 +1,13 @@
 <?php
+
 require 'vendor/autoload.php';
-$availabeRoutes = ['chatbot'];
 
-$route = 'chatbot';
+use App\Router;
+use App\Controllers\User;
+use App\Controllers\Messages;
 
-if (isset($_GET['page']) && in_array($_GET['page'], $availabeRoutes)) {
-  $route = $_GET['page'];
-};
+new Router([
+  'user/:id' => User::class,
+  'messages' => Messages::class
+]);
 
