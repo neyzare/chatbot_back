@@ -64,4 +64,3 @@ class Messages {
     $this->header();
     $this->ifMethodExist();
   }
-}
