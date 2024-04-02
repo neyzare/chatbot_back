@@ -16,11 +16,7 @@ class Messages {
   protected function getMessages() {
     $message = [
       'author' => 'Cyril Vimard',
-      'avatar' => 'https://media.wired.com/photos/59271340ac01987bf0138709/1:1/w_200,h_200,c_limit/SpiderMan.jpg',
-      'type' => 'bot',
-      'date' => '25/03/2024',
-      'text' => 'Hello World',
-      'toto' => 'tutu'
+      'name' => ''
     ];
     return [
       $message,
